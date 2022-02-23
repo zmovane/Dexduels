@@ -1,0 +1,43 @@
+{
+  "name": "benswap-arbitrage",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.10",
+    "@ethersproject/abi": "^5.5.0",
+    "@mistswapdex/sdk": "^0.0.12",
+    "@pancakeswap-libs/sdk-v2": "https://github.com/BenTokenFinance/benswapbch-sdk/tarball/master",
+    "axios": "^0.26.0",
+    "babel-jest": "^27.4.6",
+    "collections": "^5.1.13",
+    "crc": "^4.1.0",
+    "dataclass": "^2.0.0",
+    "dotenv": "^11.0.0",
+    "fastpriorityqueue": "^0.7.1",
+    "https-proxy-agent": "^5.0.0",
+    "lodash": "^4.17.21",
+    "lodash.combinations": "^18.10.0",
+    "mongodb": "^4.3.1",
+    "rxjs": "^7.5.2",
+    "ts-jest": "^27.1.3",
+    "uuid": "^8.3.2",
+    "web3": "^1.6.1",
+    "web3-eth": "^1.6.1",
+    "ws": "^8.4.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}

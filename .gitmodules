@@ -1,0 +1,3 @@
+[submodule "benswapbch-assets"]
+	path = benswapbch-assets
+	url = git@github.com:BenTokenFinance/benswapbch-assets.git
